@@ -273,7 +273,7 @@ section {
     position: relative;
 }
 
-.about-containers {
+.about-container {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -284,7 +284,7 @@ section {
     flex-direction: column;
 }
 
-.about-containers,
+.about-container,
 .about-details-container {
     display: flex;
 }
@@ -293,10 +293,10 @@ section {
     border-radius: 2rem;
 }
 
-.arrow {
+.arrow2 {
     position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
+    right: 16rem;
+    bottom: -45rem;
 }
 
 .details-container {
@@ -314,8 +314,54 @@ section {
     height: 80%;
 }
 
-.section__pic-container {
+.section-pic-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
 }
+
+/* Experience */
+#experience {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 5rem;
+    bottom: 25rem;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-datails-contailer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+/* projects section */
